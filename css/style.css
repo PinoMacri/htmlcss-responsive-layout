@@ -263,6 +263,10 @@ label {
 }
 .cardDevelopement p {
     font-style: italic;
+    margin: 0;
+}
+.cardDevelopement h3 {
+    margin: 0;
 }
 .cardDevelopement img {
     width: 70%;
@@ -274,6 +278,8 @@ label {
     border-radius: 50%;
     text-align: center;
     line-height: 50px;
+    margin-bottom: 20px;
+  
 }
 /*!-Responsive da 1200px in giù-*/ 
 @media screen and (max-width:1200px) { .padreStrategic {
@@ -545,6 +551,9 @@ label {
 #plastsection {
     margin-top: 40px;
     margin-bottom: 10px;
+}
+#plastsection span {
+    text-decoration: underline;
 }
 /*!-Responsive da 576px in giù-*/
 @media screen and (max-width: 576px) { .sectionPricing {

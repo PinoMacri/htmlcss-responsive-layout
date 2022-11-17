@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png">
     <title>Responsive Layout</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
@@ -17,7 +18,7 @@
 </head>
 
 <body>
-    <!--^---------------------------------HEADER------------------------------------>
+    <!--^---------------------------------HEADER----------------------------------->
     <header class="clearfix">
         <!--*NAV-->
         <nav class="container ">
@@ -36,84 +37,86 @@
             </ul>
         </nav>
     </header>
-    <!--^----------------------------------MAIN------------------------------------->
+    <!--^----------------------------------MAIN------------------------------------>
     <main>
         <!--*SECTION INTRODUTTIVA-->
-        <div class="row flex container">
-            <!-- CARD 1 -->
-            <div class="bigDiv ">
-                <div class="cardDiv flex">
-                    <div>
+        <section class="container">
+            <div class="row flex ">
+                <!-- CARD 1 -->
+                <div class="bigDiv ">
+                    <div class="cardDiv flex">
+                        <div>
+                            <h3>
+                                Get a demo application
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, aut molestiae quod
+                                maiores quis similique quam facilis assumenda accusamus exercitationem!
+                            </p>
+                            <a href="#">
+                                <i class="fa-brands fa-apple"></i> App Store
+                            </a>
+                        </div>
+                        <div class="imgBigDiv flex">
+                            <img src="img/phone.png" alt="tablet">
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD 2 -->
+                <div class="smallDiv ">
+                    <div class="cardDiv txc">
+                        <i class="fa-solid fa-file-code"></i>
                         <h3>
-                            Get a demo application
+                            Clean Code
                         </h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, aut molestiae quod
                             maiores quis similique quam facilis assumenda accusamus exercitationem!
                         </p>
-                        <a href="#">
-                            <i class="fa-brands fa-apple"></i> App Store
-                        </a>
-                    </div>
-                    <div class="imgBigDiv flex">
-                        <img src="img/phone.png" alt="tablet">
                     </div>
                 </div>
-            </div>
-            <!-- CARD 2 -->
-            <div class="smallDiv ">
-                <div class="cardDiv txc">
-                    <i class="fa-solid fa-file-code"></i>
-                    <h3>
-                        Clean Code
-                    </h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, aut molestiae quod
-                        maiores quis similique quam facilis assumenda accusamus exercitationem!
-                    </p>
+                <!-- CARD 3 -->
+                <div></div>
+                <div class="smallDiv">
+                    <div class="cardDiv txc">
+                        <i class="fa-solid fa-compass-drafting"></i>
+                        <h3>
+                            Web Design
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, aut molestiae quod
+                            maiores quis similique quam facilis assumenda accusamus exercitationem!
+                        </p>
+                    </div>
+                </div>
+                <!-- CARD 4 -->
+                <div class="smallDiv">
+                    <div class="cardDiv txc">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h3>
+                            Developement
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, aut molestiae quod
+                            maiores quis similique quam facilis assumenda accusamus exercitationem!
+                        </p>
+                    </div>
+                </div>
+                <!-- CARD 5 -->
+                <div class="smallDiv">
+                    <div class="cardDiv txc">
+                        <i class="fa-solid fa-bullhorn"></i>
+                        <h3>
+                            Branding
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, aut molestiae quod
+                            maiores quis similique quam facilis assumenda accusamus exercitationem!
+                        </p>
+                    </div>
                 </div>
             </div>
-            <!-- CARD 3 -->
-            <div></div>
-            <div class="smallDiv">
-                <div class="cardDiv txc">
-                    <i class="fa-solid fa-compass-drafting"></i>
-                    <h3>
-                        Web Design
-                    </h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, aut molestiae quod
-                        maiores quis similique quam facilis assumenda accusamus exercitationem!
-                    </p>
-                </div>
-            </div>
-            <!-- CARD 4 -->
-            <div class="smallDiv">
-                <div class="cardDiv txc">
-                    <i class="fa-solid fa-laptop-code"></i>
-                    <h3>
-                        Developement
-                    </h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, aut molestiae quod
-                        maiores quis similique quam facilis assumenda accusamus exercitationem!
-                    </p>
-                </div>
-            </div>
-            <!-- CARD 5 -->
-            <div class="smallDiv">
-                <div class="cardDiv txc">
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <h3>
-                        Branding
-                    </h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, aut molestiae quod
-                        maiores quis similique quam facilis assumenda accusamus exercitationem!
-                    </p>
-                </div>
-            </div>
-        </div>
+        </section>
         <!--*SECTION STRATEGICA&DEVELOPMENT-->
         <div class="strategic">
             <div class="padreStrategic flex container">
@@ -296,14 +299,16 @@
                         error, sint esse? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam et quae
                         impedit! Modi asperiores
                         esse soluta! Ullam obcaecati quaerat sapiente sed, assumenda minus alias dolorum non eveniet
-                        error, sint esse? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam et quae impedit! Modi asperiores
+                        error, sint esse? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam et quae
+                        impedit! Modi asperiores
                         esse soluta! Ullam obcaecati quaerat sapiente sed, assumenda minus alias dolorum non eveniet
                         error, sint esse?
                     </p>
                     <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam et quae impedit! Modi asperiores
                         esse soluta! Ullam obcaecati quaerat sapiente sed, assumenda minus alias dolorum non eveniet
-                        error, sint esse? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam et quae impedit! Modi asperiores
+                        error, sint esse? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam et quae
+                        impedit! Modi asperiores
                         esse soluta! Ullam obcaecati quaerat sapiente sed, assumenda minus alias dolorum non eveniet
                         error, sint esse?
                     </p>
@@ -328,20 +333,23 @@
                 <p>GET STARTED</p>
                 <h3>Simple, Transparent Pricing</h3>
                 <h2 id="h2lastsection">It's Free!</h2>
-                <p>We're still in beta and we will be for awhile. As we add more functionality, we'll look into other plans with more controls.</p>
+                <p>We're still in beta and we will be for awhile. As we add more functionality, we'll look into other
+                    plans with more controls.</p>
                 <a href="#">Get Started</a>
-                <p id="plastsection">Copyright 2021 Boolean - Classe XX - Privacy policy</p>
+                <p id="plastsection">Copyright 2021 Boolean&#8226;Classe XX&#8226;<span>Privacy policy</span></p>
             </div>
         </div>
     </main>
-     <!--^----------------------------------FOOTER------------------------------------->
-     <!--*FOOTER-->
-     <footer>
+    <!--^----------------------------------FOOTER---------------------------------->
+    <!--*FOOTER-->
+    <footer>
         <div class="divFooter">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt voluptas dignissimos officiis temporibus eligendi eos nesciunt dolore voluptates! Beatae nisi numquam dolores rem nobis laudantium dolorem, ducimus repellendus commodi itaque.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt voluptas dignissimos officiis
+                temporibus eligendi eos nesciunt dolore voluptates! Beatae nisi numquam dolores rem nobis laudantium
+                dolorem, ducimus repellendus commodi itaque.</p>
             <p><a href="#">Lorem ipsum</a> scelerisque mauris pellebntesque <a href="#">Boolean careers</a></p>
         </div>
-     </footer>
+    </footer>
 </body>
 
 </html>
